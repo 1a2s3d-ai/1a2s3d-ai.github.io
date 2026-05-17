@@ -135,40 +135,6 @@
       </tags>
   </entry>
   <entry>
-    <title>基于Node.js的博客系统</title>
-    <url>/2026/04/27/%E5%9F%BA%E4%BA%8ENode.js%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[<p>Node.js，作为一个强大的开源JavaScript运行环境，以其非阻塞I&#x2F;O和事件驱动的特性，在Web开发领域独树一帜。它使得JavaScript可以脱离浏览器，运行在服务器端，极大地拓宽了JavaScript的应用场景。本篇文章将深入探讨一个基于Node.js构建的超小型博客系统，探讨其设计思路、核心技术以及应用场景。</p>
-<p>我们要理解Node.js的核心优势。Node.js使用V8引擎执行JavaScript代码，提供了高效的性能。它采用单线程、异步I&#x2F;O模型，处理高并发请求时表现出色，特别适合于构建实时通信应用，如聊天服务、实时数据分析和我们关注的博客系统。</p>
-<p>该“超小型博客系统”利用了Node.js的这些优点，实现了轻量级、高效能的博客发布、阅读和管理功能。它可能包括以下关键组件：</p>
-<ol>
-<li><p><strong>路由处理</strong>：Node.js的Express框架是构建Web应用的首选，它提供了一套简洁的API来定义HTTP路由，处理GET、POST等请求，实现页面跳转和数据交互。</p>
-</li>
-<li><p><strong>数据库操作</strong>：通常，博客系统会使用MongoDB或者MySQL等数据库存储文章、用户信息等数据。Node.js有众多数据库连接库，如Mongoose（MongoDB）或Sequelize（SQL），用于进行数据CRUD操作。</p>
-</li>
-<li><p><strong>模板引擎</strong>：为了生成动态HTML页面，系统可能会使用EJS、Pug或Handlebars等模板引擎，将后台数据与静态HTML模板结合。</p>
-</li>
-<li><p><strong>用户认证</strong>：对于博客系统，用户登录注册功能是必备的。这涉及到密码哈希、session或JWT（JSON Web Tokens）等技术，确保用户安全登录。</p>
-</li>
-<li><p><strong>RESTful API</strong>：系统可能通过RESTful API提供数据接口，允许前端通过HTTP动词（GET、POST、PUT、DELETE）来获取或修改数据，实现前后端分离。</p>
-</li>
-<li><p><strong>静态资源处理</strong>：Node.js还可以通过中间件处理静态文件，如CSS、JavaScript和图片，提高网站加载速度。</p>
-</li>
-<li><p><strong>错误处理</strong>：良好的错误处理机制是任何系统稳定运行的关键，Node.js提供了try…catch以及全局错误监听器，确保程序在遇到异常时不会崩溃。</p>
-</li>
-<li><p><strong>部署与监控</strong>：博客系统需要考虑部署到服务器，并配置日志和监控工具，如PM2，以确保应用的稳定性和可维护性。</p>
-</li>
-</ol>
-<p>这个“超小型博客系统”作为学习资料，对于想要了解Node.js开发的初学者而言，是一个很好的实践项目。它可以帮助开发者熟悉Node.js的基础知识，了解如何将JavaScript应用于服务器端，以及如何构建Web应用程序。同时，由于其规模较小，也适合快速搭建个人博客，满足简单的博客发布需求。</p>
-<p>基于Node.js的超小型博客系统展示了Node.js在Web开发中的灵活性和效率，同时也体现了JavaScript全栈开发的魅力。无论是初学者还是经验丰富的开发者，都可以从中获益，提升自己的技能。</p>
-]]></content>
-      <categories>
-        <category>博客笔记</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>我的第一篇博客文章</title>
     <url>/2026/04/25/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这是我的第一篇博客文章，用Markdown语法编写。</p>
@@ -325,6 +291,40 @@
       <tags>
         <tag>Hexo</tag>
         <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>基于Node.js的博客系统</title>
+    <url>/2026/04/27/%E5%9F%BA%E4%BA%8ENode.js%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<p>Node.js，作为一个强大的开源JavaScript运行环境，以其非阻塞I&#x2F;O和事件驱动的特性，在Web开发领域独树一帜。它使得JavaScript可以脱离浏览器，运行在服务器端，极大地拓宽了JavaScript的应用场景。本篇文章将深入探讨一个基于Node.js构建的超小型博客系统，探讨其设计思路、核心技术以及应用场景。</p>
+<p>我们要理解Node.js的核心优势。Node.js使用V8引擎执行JavaScript代码，提供了高效的性能。它采用单线程、异步I&#x2F;O模型，处理高并发请求时表现出色，特别适合于构建实时通信应用，如聊天服务、实时数据分析和我们关注的博客系统。</p>
+<p>该“超小型博客系统”利用了Node.js的这些优点，实现了轻量级、高效能的博客发布、阅读和管理功能。它可能包括以下关键组件：</p>
+<ol>
+<li><p><strong>路由处理</strong>：Node.js的Express框架是构建Web应用的首选，它提供了一套简洁的API来定义HTTP路由，处理GET、POST等请求，实现页面跳转和数据交互。</p>
+</li>
+<li><p><strong>数据库操作</strong>：通常，博客系统会使用MongoDB或者MySQL等数据库存储文章、用户信息等数据。Node.js有众多数据库连接库，如Mongoose（MongoDB）或Sequelize（SQL），用于进行数据CRUD操作。</p>
+</li>
+<li><p><strong>模板引擎</strong>：为了生成动态HTML页面，系统可能会使用EJS、Pug或Handlebars等模板引擎，将后台数据与静态HTML模板结合。</p>
+</li>
+<li><p><strong>用户认证</strong>：对于博客系统，用户登录注册功能是必备的。这涉及到密码哈希、session或JWT（JSON Web Tokens）等技术，确保用户安全登录。</p>
+</li>
+<li><p><strong>RESTful API</strong>：系统可能通过RESTful API提供数据接口，允许前端通过HTTP动词（GET、POST、PUT、DELETE）来获取或修改数据，实现前后端分离。</p>
+</li>
+<li><p><strong>静态资源处理</strong>：Node.js还可以通过中间件处理静态文件，如CSS、JavaScript和图片，提高网站加载速度。</p>
+</li>
+<li><p><strong>错误处理</strong>：良好的错误处理机制是任何系统稳定运行的关键，Node.js提供了try…catch以及全局错误监听器，确保程序在遇到异常时不会崩溃。</p>
+</li>
+<li><p><strong>部署与监控</strong>：博客系统需要考虑部署到服务器，并配置日志和监控工具，如PM2，以确保应用的稳定性和可维护性。</p>
+</li>
+</ol>
+<p>这个“超小型博客系统”作为学习资料，对于想要了解Node.js开发的初学者而言，是一个很好的实践项目。它可以帮助开发者熟悉Node.js的基础知识，了解如何将JavaScript应用于服务器端，以及如何构建Web应用程序。同时，由于其规模较小，也适合快速搭建个人博客，满足简单的博客发布需求。</p>
+<p>基于Node.js的超小型博客系统展示了Node.js在Web开发中的灵活性和效率，同时也体现了JavaScript全栈开发的魅力。无论是初学者还是经验丰富的开发者，都可以从中获益，提升自己的技能。</p>
+]]></content>
+      <categories>
+        <category>博客笔记</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
       </tags>
   </entry>
 </search>
