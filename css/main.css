@@ -1385,7 +1385,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #cd3944;
+    background: #fc5c29;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2576,6 +2576,9 @@ ul.breadcrumb li:last-child {
     color: #eee;
   }
 }
+.utterances {
+  max-width: unset;
+}
 .search-active {
   overflow: hidden;
   margin-right: var(--dialog-scrollgutter, 0);
@@ -3017,10 +3020,6 @@ header.header {
   .comments {
     padding: 10px 12px;
   }
-}
-.giscus {
-  max-width: unset;
-  box-sizing: border-box;
 }
 body {
   background-color: #f0f5ff; /* 先设置一个浅蓝色背景作为备选 */
