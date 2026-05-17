@@ -1,0 +1,111 @@
+/* 自定义页面背景样式 */
+
+/* 整体页面背景设置 */
+body {
+  background-color: #e8f4fc !important;
+  background-image: url('/images/weilan.jpg') !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* 文章内容区域背景色（白色半透明） */
+.post-block {
+  background: rgba(255, 255, 255, 0.7) !important;
+  border-radius: 12px !important;
+  padding: 30px !important;
+  margin: 20px auto !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* 侧边栏背景色 - 改为白色半透明 */
+.sidebar {
+  background: rgba(255, 255, 255, 0.7) !important;
+  border-radius: 12px !important;
+}
+
+/* 侧边栏内部菜单项背景 */
+.sidebar-inner {
+  background: transparent !important;
+}
+
+/* 侧边栏导航菜单背景 */
+.site-nav {
+  background: rgba(255, 255, 255, 0.7) !important;
+  border-radius: 12px !important;
+}
+
+/* 菜单项悬停效果 */
+.menu-item a:hover {
+  background: rgba(255, 255, 255, 0.5) !important;
+  border-radius: 6px !important;
+}
+
+/* 首页文章卡片样式 */
+.posts-expand .post-title {
+  background: rgba(255, 255, 255, 0.92) !important;
+  border-radius: 8px !important;
+  padding: 15px !important;
+}
+
+/* ========== 顶部导航栏背景 ========== */
+
+/* 顶部导航栏整体背景 */
+.header {
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* 顶部导航栏内部容器 */
+.header-inner {
+  background: transparent !important;
+}
+
+/* 站点头部/Logo区域 */
+.site-brand-container {
+  background: #1a1a1a;
+}
+
+/* 站点信息区域 */
+.site-meta {
+  background: #1a1a1a;
+}
+
+/* 菜单栏背景 */
+.site-nav {
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* 导航链接样式 */
+.site-nav a {
+  background: transparent !important;
+}
+
+/* 移动端菜单栏 */
+.posts-expand {
+  background: transparent !important;
+}
+
+/* 主内容区域背景 */
+.main {
+  background: transparent !important;
+}
+
+/* ========== 评论系统 Giscus 背景 ========== */
+
+/* 评论区域容器 */
+.comments {
+  background: rgba(255, 255, 255, 0.7) !important;
+  border-radius: 12px !important;
+  padding: 20px !important;
+}
+
+/* 评论输入框区域 */
+.giscus-frame {
+  border-radius: 12px !important;
+}
+
+/* 评论区标题 */
+.comment-section-heading {
+  background: rgba(255, 255, 255, 0.7) !important;
+}
